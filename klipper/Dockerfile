@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG KLIPPER_BRANCH="master"
 ARG MOONRAKER_BRANCH="master"
 
-ARG USER=klippy
+ARG USER=root
 ARG HOME=/home/${USER}
 ARG KLIPPER_VENV_DIR=${HOME}/klippy-env
 ARG MOONRAKER_VENV_DIR=${HOME}/moonraker-env
